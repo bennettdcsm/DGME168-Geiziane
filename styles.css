@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+		
+	body{
+			font-family: Arial, "Arial Bold", Verdana, "Verdana Bold", "sans-serif";
+			min-height: 100vh;
+			display: block;
+		}
+		header{
+			color: white;
+			text-align: center;
+			padding: 5px;
+			background-color: #087C11;
+}
+main {
+	
+	
+}
+		
+		/* Box starts here*/
+
+nav{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 90px;
+  background-color: #f1f1f1;
+  height: 300px; 
+	float: left;
+}
+	 
+	
+		nav a{
+			display: block;
+			padding: 5px;
+			text-decoration: none;
+			padding: 10px 15px 10px 15px;
+			
+			color: #0E5206;
+			font-weight: bold;
+			
+			
+		}
+		nav a:hover{
+			
+			color: #72A863;
+		}
+		/* 
+		.container{
+			width: 100%;
+			padding: 10px;
+			float: left;
+			
+		}
+			*/
+		
+		.article {
+			width: 30%;
+			padding: 15px 10px 15px 10px;
+			margin: 5px;
+			float: left;
+		}
+
+.image  {
+			margin: 5px;
+			float: left;
+		}
+	
+
+		.aside {
+			width: 30%;
+			padding: 15px 10px 15px 10px;
+			margin: 5px 20px 5px 5px;
+			float: left;
+		}
+		
+		.footer{
+			color: white;
+			background-color: #1B1B1B;
+			padding: 5px;
+			text-align: center;
+			clear: both;
+		}
+	
